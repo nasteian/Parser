@@ -34,10 +34,11 @@ def get_content(html):
         coord = coordinates[num]
         shops.append(
             {
-                'name': 'Monomax',
                 'address': address,
-                'phone': phone,
-                'coordinates': coord
+                'latlon': coord,
+                'name': 'Monomax',
+                'phones': phone,
+
             }
         )
         num += 1
